@@ -5,6 +5,8 @@ from django.db.models import Q
 
 
 
+# https://devmaesters.com/blog/15   # configure of versel on website
+
 
 def home(request):
     content = None
