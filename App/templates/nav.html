@@ -1,0 +1,19 @@
+{% load static %}
+
+<nav class="navbar">
+    <ul>
+        <li><a href="{% url 'home' %}" class="nav-link">Home</a></li>
+        <li><a href="{% url 'contactus' %}" class="nav-link">Contact Us</a></li>
+        <li><a href="{% url 'terms' %}" class="nav-link">Terms and Conditions</a></li>
+        <li><a href="{% url 'aboutus' %}" class="nav-link">About Us</a></li>
+    </ul>
+    <form class="search-form" action="{% url 'home' %}", method='post'>
+        {% csrf_token %}
+        <input type="text" placeholder="Search",  name="itemtofound">
+        <button type="submit" class='search-button'>Search</button>
+    </form>
+</nav>
+<br>
+<hr>
+
+

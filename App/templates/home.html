@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}home{% endblock title %}
+
+{% block content %}
+
+
+
+
+<div class="container3">
+    <div class="left">
+        <!-- Left column content (ads, etc.) goes here -->
+        <img src="ad1.jpg" alt="Ad 1">
+        <img src="ad2.jpg" alt="Ad 2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla laoreet dolor elit, eget convallis nisi convallis ut.</p>
+        <p>Donec pellentesque mauris quis turpis blandit, vel viverra lectus ultricies.</p>
+ 
+    </div>
+    <div class="middle">
+        <!-- Middle column content goes here -->
+                    
+        {% if articles %}
+                {% for article in  articles %}
+
+                    <h2> {{article.header}}</h2>
+
+                        
+                    <p>{{article.content}}</p>
+
+                {% endfor %}
+
+        {% endif %}
+               
+
+
+                
+    </div>
+    <div class="right">
+        <!-- Right column content (ads, etc.) goes here -->
+        <img src="ad3.jpg" alt="Ad 3">
+        <img src="ad4.jpg" alt="Ad 4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla laoreet dolor elit, eget convallis nisi convallis ut.</p>
+        <p>Donec pellentesque mauris quis turpis blandit, vel viverra lectus ultricies.</p>
+ 
+    </div>
+</div>
+
+
+
+
+{% endblock content %}
+
+
+
+
+
+

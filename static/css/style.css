@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333; /* Navbar background color */
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #fff; /* Link text color */
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #555; /* Hover background color */
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 150px;
+}
+
+.search-form button {
+    padding: 5px 10px; 
+   
+    background-color: #555; /* Search button background color */
+    color: #fff; /* Search button text color */
+    border: none;
+    margin-left: 5px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #ceadad; /* Hover background color for search button */
+    
+}
+.search-button {
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+  
+.container1 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+/* Global Styles */
+/* body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+} */
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Terms and Conditions Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container p {
+    margin-bottom: 15px;
+}
+
+.container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.container ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.container li {
+    margin-bottom: 5px;
+}
+
+.container blockquote {
+    margin: 0 0 15px;
+    padding: 10px 20px;
+    border-left: 5px solid #007bff;
+    background-color: #f8f9fa;
+}
+
+.container blockquote p {
+    margin: 0;
+}
+
+.container pre {
+    font-family: Consolas, monospace;
+    background-color: #f8f9fa;
+    padding: 10px;
+    overflow: auto;
+}
+
+.container code {
+    font-family: Consolas, monospace;
+    background-color: #f8f9fa;
+    padding: 2px 5px;
+}
+
+.container strong {
+    font-weight: bold;
+}
+
+.container em {
+    font-style: italic;
+}
+
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container th, .container td {
+    padding: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.container th {
+    background-color: #f8f9fa;
+}
+
+.container hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #dee2e6;
+}
+
+.container pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Customize this section for your website's look and feel */
+.container {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    color: #007bff;
+}
+
+/* Additional styles specific to your website can be added here */
+
+
+
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* About Us Page Styles */
+.container.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container.about-us h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.container.about-us h2 {
+    margin-top: 20px;
+}
+
+.container.about-us p {
+    margin-bottom: 15px;
+}
+
+/* Additional styles specific to your website can be added here */
+
+
+
+
+
+
+
+
+
+
+/* Global Styles */
+/* body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+} */
+
+/* Three Column Layout Styles */
+/* .container3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left, .middle, .right {
+    flex: 1;
+    padding: 10px;
+}
+
+.left {
+    background-color: #f9f9f9;
+}
+
+.middle {
+    background-color: #f0f0f0;
+}
+
+.right {
+    background-color: #f9f9f9;
+}
+
+.left img, .right img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.middle h1 {
+    color: #007bff;
+} */
+
+/* Additional styles specific to your website can be added here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container3 {
+    display: flex;
+    
+    margin: 5 auto;
+    
+  }
+
+  .left,
+  .right {
+    flex-basis: 20%;
+  }
+
+  .middle {
+    flex-basis: 60%;
+  }
+
+  .left {
+    background-color: #f9f9f9;
+}
+
+.middle {
+    background-color: #f0f0f0;
+}
+
+.right {
+    background-color: #f9f9f9;
+}
+
+.left img, .right img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.middle h1 {
+    color: #007bff;
+}
+
