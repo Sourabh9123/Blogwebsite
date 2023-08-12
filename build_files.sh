@@ -5,7 +5,7 @@ echo "Build start"
 pip install -r requirements.txt
 
 echo "Build start collectstatic"
-python3.10 manage.py collectstatic --no-inpiut
+py manage.py collectstatic --no-inpiut
 
 echo " build end new"
 
