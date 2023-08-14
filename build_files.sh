@@ -6,7 +6,7 @@ pip install -r requirements.txt
 
 echo "Build start collectstatic"
 python --version
-python manage.py collectstatic --no-input
+python manage.py collectstatic --noinput --clear
 
 echo " build end new"
 
