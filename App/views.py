@@ -14,7 +14,7 @@ def home(request):
         content = request.POST['itemtofound']
         if content:
             try:
-                article = Content.objects.filter(Q(content__icontains=content) | Q(header__icontains=content)).order_by('-created_at')
+                article = Content.objects.filter(Q(content__icontains=content) | Q(header__icontains=content))
 
                 
                 length = len(article)
