@@ -33,6 +33,7 @@ def home(request):
     if not content:
         article = Content.objects.all().order_by('-created_at')
         length = len(article)
+
         print('____________________________--------------')
         
         context = {
